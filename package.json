@@ -1,0 +1,41 @@
+{
+  "name": "@tickit/variable-resolver",
+  "version": "1.0.0",
+  "description": "Shared library for resolving template variables in Tickit services",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint src/**/*.js tests/**/*.js",
+    "format": "prettier --write src/**/*.js tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzimKrishna/Tickit-Variable-Resolver.git"
+  },
+  "keywords": [
+    "tickit",
+    "template",
+    "variable",
+    "resolver"
+  ],
+  "files": [
+    "src/",
+    "LICENSE",
+    "README.md"
+  ],
+  "author": "ABKrishna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AzimKrishna/Tickit-Variable-Resolver/issues"
+  },
+  "homepage": "https://github.com/AzimKrishna/Tickit-Variable-Resolver#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-jest": "^28.11.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.5.3"
+  }
+}
