@@ -1,5 +1,5 @@
 {
-  "name": "@tickit/variable-resolver",
+  "name": "variable-resolver",
   "version": "1.0.0",
   "description": "Shared library for resolving template variables in Tickit services",
   "main": "src/index.js",
@@ -24,6 +24,9 @@
     "LICENSE",
     "README.md"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "ABKrishna",
   "license": "ISC",
   "bugs": {
